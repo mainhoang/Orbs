@@ -1,0 +1,45 @@
+#mai-navbar {
+	border-radius: 0px;
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+#mai-carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+.mai-caption {
+  z-index: 10;
+  top: 22vh;
+}
+
+.mai-caption p {
+	font-size: 24px;
+}
+
+.mai-carousel-items {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.shade {
+	height: 500px;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+#hero-1 {
+	background-image: url("../images/sky-hero.jpg");
+}
+#hero-2 {
+	background-image: url("../images/orbs-hero.jpg");
+}
+#hero-3 {
+	background-image: url("../images/free-hero.jpg");
+}
