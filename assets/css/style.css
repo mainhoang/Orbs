@@ -9,16 +9,16 @@
 
 #mai-carousel {
   height: 500px;
-  margin-bottom: 60px;
 }
 
 .mai-caption {
   z-index: 10;
   top: 22vh;
+  text-shadow: none;
 }
 
 .mai-caption p {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .mai-carousel-items {
@@ -43,3 +43,18 @@
 #hero-3 {
 	background-image: url("../images/free-hero.jpg");
 }
+
+#orbs-section {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#orbs-section .left {
+	border-right: 1px solid #c9c9c9;
+}
+#orbs-section .right {
+	border-left: 0px solid #777;
+}
+
+
+
