@@ -138,7 +138,7 @@
 	}
 }
 
-@media (max-width: 420px) and (orientation: p){
+@media (max-width: 420px) {
 	.orbs-caption p {
   		font-size: 16px;
 	}
