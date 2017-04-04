@@ -13,8 +13,16 @@
 
 .orbs-caption {
     z-index: 10;
-    top: 22vh;
+    /*top: 22vh;*/
     text-shadow: none;
+}
+
+#hero-1 .orbs-caption {
+    top: 165px;
+}
+
+#hero-2 .orbs-caption, #hero-3 .orbs-caption {
+    top: 155px;
 }
 
 .orbs-caption h1 {
@@ -111,67 +119,55 @@
 }
 
 #gary-mobile {
-	display: none;
+    display: none;
 }
 
-#contact-section {
-	background-color: #2c3e50;
-	color: white;
-	padding-top: 30px;
-	padding-bottom: 30px;
+#footer {
+    background-color: #2c3e50;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-#contact-section a {
-	color: white;
+#footer a {
+    color: white;
 }
 
-#contact-heading {
-	border-bottom: 1px solid #eee;
-	margin-bottom: 5px;
+#footer-heading {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 5px;
 }
 
-#contact-heading div {
-	display: inline-block;
+#footer-heading div {
+    display: inline-block;
 }
 
-#contact-heading div:first-child {
-	padding-top: 26px;
+#footer-heading div:first-child {
+    padding-top: 26px;
 }
 
 .footer-rows {
-	padding: 5px 0px;
+    padding: 5px 0px;
 }
 
 .footer-rows:last-child p {
-	font-weight: 300;
-	font-size: 8px;
+    font-weight: 300;
+    font-size: 8px;
 }
 
 .contact-info p {
-	font-weight: 300;
+    font-weight: 300;
 }
 
 @media (max-width: 1200px) {
-    #hero-1 .orbs-caption {
-        top: 22vh;
-    }
-    #hero-2 .orbs-caption {
-        top: 17vh;
-    }
-    #hero-3 .orbs-caption {
-        top: 18vh;
+    #hero-2 .orbs-caption, #hero-3 .orbs-caption {
+        top: 135px;
     }
 }
 
 @media (max-width: 992px) {
-    #hero-1 .orbs-caption {
-        top: 20vh;
-    }
-    #hero-2 .orbs-caption {
-        top: 15vh;
-    }
-    #hero-3 .orbs-caption {
-        top: 16vh;
+    #hero-2 .orbs-caption, #hero-3 .orbs-caption {
+        top: 105px;
     }
     #team-section {
         padding-top: 20px;
@@ -182,16 +178,16 @@
         border-bottom: 1px solid #eee;
     }
     .bio-wrapper:last-child {
-    	border-bottom: none;
+        border-bottom: none;
     }
     .bio-wrapper p {
-    	margin: 0 0 20px;
+        margin: 0 0 20px;
     }
     #gary-desktop {
-    	display: none;
+        display: none;
     }
     #gary-mobile {
-    	display: block;
+        display: block;
     }
 }
 
@@ -200,13 +196,13 @@
         font-size: 18px;
     }
     #hero-1 .orbs-caption {
-        top: 17vh;
+        top: 160px;
     }
     #hero-2 .orbs-caption {
-        top: 12vh;
+        top: 110px;
     }
     #hero-3 .orbs-caption {
-        top: 13vh;
+    	top: 120px;
     }
     #world-wrapper h1 {
         font-size: 36px;
@@ -221,13 +217,13 @@
         font-size: 16px;
     }
     #hero-1 .orbs-caption {
-        top: 25vh;
+        top: 155px;
     }
     #hero-2 .orbs-caption {
-        top: 14vh;
+        top: 95px;
     }
     #hero-3 .orbs-caption {
-        top: 17vh;
+    	top: 105px;
     }
     #world-wrapper p {
         text-align: justify;
