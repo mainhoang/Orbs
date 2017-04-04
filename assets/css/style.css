@@ -1,6 +1,6 @@
 #orbs-navbar {
-	border-radius: 0px;
-	position: absolute;
+    border-radius: 0px;
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
@@ -8,160 +8,229 @@
 }
 
 #orbs-carousel {
-  height: 500px;
+    height: 500px;
 }
 
 .orbs-caption {
-  z-index: 10;
-  top: 22vh;
-  text-shadow: none;
+    z-index: 10;
+    top: 22vh;
+    text-shadow: none;
 }
 
 .orbs-caption h1 {
-	padding-bottom: 14px;
-	border-bottom: 1px solid #eee;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #eee;
 }
 
 .orbs-caption p {
-	font-size: 20px;
-	padding-top: 2px;
+    font-size: 20px;
+    padding-top: 2px;
 }
 
 .orbs-carousel-items {
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
 }
 
 .shade {
-	height: 500px;
+    height: 500px;
     background-color: #000;
     opacity: 0.5;
 }
 
 #hero-1 {
-	background-image: url("../images/sky-hero.jpg");
+    background-image: url("../images/sky-hero.jpg");
 }
+
 #hero-2 {
-	background-image: url("../images/orbs-hero.jpg");
+    background-image: url("../images/orbs-hero.jpg");
 }
+
 #hero-3 {
-	background-image: url("../images/free-hero.jpg");
-	background-position: center center;
+    background-image: url("../images/free-hero.jpg");
+    background-position: center center;
 }
 
 #banner-section {
-	background-color: #eeeeee;
-	/*color: black;*/
-	padding-top: 40px;
-	padding-bottom: 30px;
+    background-color: #eeeeee;
+    /*color: black;*/
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 #banner-section p {
-	font-size: 16px;
-	font-weight: 350;
+    font-size: 16px;
+    font-weight: 350;
 }
 
 #banner-section h3 {
-	margin-top: 10px;
-	margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #orbs-section {
-	margin-top: 60px;
-	margin-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 #world-wrapper h1 {
-	color: #2c3e50;
-	font-weight: bold;
-	font-size: 48px;
-	text-align: center;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
 }
 
 #world-wrapper p {
-	border-bottom: 1px solid #eee;
-	text-align: center;
-	font-size: 18px;
-	font-weight: 300;
-	margin: 0px;
-	padding: 40px 60px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0px;
+    padding: 40px 60px;
 }
 
 #world-wrapper p:last-child {
-	border-bottom: none;
+    border-bottom: none;
 }
 
 #ex-section {
-	height: 500px;
-	background-image: url(../images/congruent_outline/congruent_outline.png);
+    height: 500px;
+    background-image: url(../images/congruent_outline/congruent_outline.png);
 }
 
 #team-section {
-	padding-top: 60px;
-	padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .bio-wrapper {
-	text-align: center;
+    text-align: center;
+    padding: 0 40px;
+}
+
+#gary-mobile {
+	display: none;
+}
+
+#contact-section {
+	background-color: #2c3e50;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#contact-section a {
+	color: white;
+}
+
+#contact-heading {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 5px;
+}
+
+#contact-heading div {
+	display: inline-block;
+}
+
+#contact-heading div:first-child {
+	padding-top: 26px;
+}
+
+.footer-rows {
+	padding: 5px 0px;
+}
+
+.footer-rows:last-child p {
+	font-weight: 300;
+	font-size: 8px;
+}
+
+.contact-info p {
+	font-weight: 300;
 }
 
 @media (max-width: 1200px) {
-	#hero-1 .orbs-caption {
-  		top: 22vh;
-	}
-	#hero-2 .orbs-caption {
-  		top: 17vh;
-	}
-	#hero-3 .orbs-caption {
-  		top: 18vh;
-	}
+    #hero-1 .orbs-caption {
+        top: 22vh;
+    }
+    #hero-2 .orbs-caption {
+        top: 17vh;
+    }
+    #hero-3 .orbs-caption {
+        top: 18vh;
+    }
 }
 
 @media (max-width: 992px) {
-	#hero-1 .orbs-caption {
-  		top: 20vh;
-	}
-	#hero-2 .orbs-caption {
-  		top: 15vh;
-	}
-	#hero-3 .orbs-caption {
-  		top: 16vh;
-	}
+    #hero-1 .orbs-caption {
+        top: 20vh;
+    }
+    #hero-2 .orbs-caption {
+        top: 15vh;
+    }
+    #hero-3 .orbs-caption {
+        top: 16vh;
+    }
+    #team-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .bio-wrapper {
+        padding: 20px 40px 40px 40px;
+        border-bottom: 1px solid #eee;
+    }
+    .bio-wrapper:last-child {
+    	border-bottom: none;
+    }
+    .bio-wrapper p {
+    	margin: 0 0 20px;
+    }
+    #gary-desktop {
+    	display: none;
+    }
+    #gary-mobile {
+    	display: block;
+    }
 }
 
 @media (max-width: 768px) {
-	.orbs-caption p {
-  		font-size: 18px;
-	}
-	#hero-1 .orbs-caption {
-  		top: 17vh;
-	}
-	#hero-2 .orbs-caption {
-  		top: 12vh;
-	}
-	#hero-3 .orbs-caption {
-  		top: 13vh;
-	}
+    .orbs-caption p {
+        font-size: 18px;
+    }
+    #hero-1 .orbs-caption {
+        top: 17vh;
+    }
+    #hero-2 .orbs-caption {
+        top: 12vh;
+    }
+    #hero-3 .orbs-caption {
+        top: 13vh;
+    }
+    #world-wrapper h1 {
+        font-size: 36px;
+    }
+    #world-wrapper p {
+        padding: 30px 40px;
+    }
 }
 
 @media (max-width: 420px) {
-	.orbs-caption p {
-  		font-size: 16px;
-	}
-	#hero-1 .orbs-caption {
-  		top: 25vh;
-	}
-	#hero-2 .orbs-caption {
-  		top: 14vh;
-	}
-	#hero-3 .orbs-caption {
-  		top: 17vh;
-	}
+    .orbs-caption p {
+        font-size: 16px;
+    }
+    #hero-1 .orbs-caption {
+        top: 25vh;
+    }
+    #hero-2 .orbs-caption {
+        top: 14vh;
+    }
+    #hero-3 .orbs-caption {
+        top: 17vh;
+    }
+    #world-wrapper p {
+        text-align: justify;
+        padding: 30px 20px;
+    }
 }
-
-
-
-
-
