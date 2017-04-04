@@ -86,8 +86,7 @@
 	font-size: 18px;
 	font-weight: 300;
 	margin: 0px;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding: 40px 60px;
 }
 
 #world-wrapper p:last-child {
@@ -97,6 +96,15 @@
 #ex-section {
 	height: 500px;
 	background-image: url(../images/congruent_outline/congruent_outline.png);
+}
+
+#team-section {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.bio-wrapper {
+	text-align: center;
 }
 
 @media (max-width: 1200px) {
