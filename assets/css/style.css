@@ -1,4 +1,4 @@
-#mai-navbar {
+#orbs-navbar {
 	border-radius: 0px;
 	position: absolute;
     top: 0;
@@ -7,21 +7,27 @@
     z-index: 20;
 }
 
-#mai-carousel {
+#orbs-carousel {
   height: 500px;
 }
 
-.mai-caption {
+.orbs-caption {
   z-index: 10;
   top: 22vh;
   text-shadow: none;
 }
 
-.mai-caption p {
-	font-size: 20px;
+.orbs-caption h1 {
+	padding-bottom: 14px;
+	border-bottom: 1px solid #eee;
 }
 
-.mai-carousel-items {
+.orbs-caption p {
+	font-size: 20px;
+	padding-top: 2px;
+}
+
+.orbs-carousel-items {
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,6 +48,24 @@
 }
 #hero-3 {
 	background-image: url("../images/free-hero.jpg");
+	background-position: center center;
+}
+
+#banner-section {
+	background-color: #eeeeee;
+	/*color: black;*/
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+#banner-section p {
+	font-size: 16px;
+	font-weight: 350;
+}
+
+#banner-section h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #orbs-section {
@@ -49,12 +73,87 @@
 	margin-bottom: 60px;
 }
 
-#orbs-section .left {
-	border-right: 1px solid #c9c9c9;
+#world-wrapper h1 {
+	color: #2c3e50;
+	font-weight: bold;
+	font-size: 48px;
+	text-align: center;
 }
-#orbs-section .right {
-	border-left: 0px solid #777;
+
+#world-wrapper p {
+	border-bottom: 1px solid #eee;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
+
+#world-wrapper p:last-child {
+	border-bottom: none;
+}
+
+#ex-section {
+	height: 500px;
+	background-image: url(../images/congruent_outline/congruent_outline.png);
+}
+
+@media (max-width: 1200px) {
+	#hero-1 .orbs-caption {
+  		top: 22vh;
+	}
+	#hero-2 .orbs-caption {
+  		top: 17vh;
+	}
+	#hero-3 .orbs-caption {
+  		top: 18vh;
+	}
+}
+
+@media (max-width: 992px) {
+	#hero-1 .orbs-caption {
+  		top: 20vh;
+	}
+	#hero-2 .orbs-caption {
+  		top: 15vh;
+	}
+	#hero-3 .orbs-caption {
+  		top: 16vh;
+	}
+}
+
+@media (max-width: 768px) {
+	.orbs-caption p {
+  		font-size: 18px;
+	}
+	#hero-1 .orbs-caption {
+  		top: 17vh;
+	}
+	#hero-2 .orbs-caption {
+  		top: 12vh;
+	}
+	#hero-3 .orbs-caption {
+  		top: 13vh;
+	}
+}
+
+@media (max-width: 420px) and (orientation: p){
+	.orbs-caption p {
+  		font-size: 16px;
+	}
+	#hero-1 .orbs-caption {
+  		top: 25vh;
+	}
+	#hero-2 .orbs-caption {
+  		top: 14vh;
+	}
+	#hero-3 .orbs-caption {
+  		top: 17vh;
+	}
+}
+
+
 
 
 
